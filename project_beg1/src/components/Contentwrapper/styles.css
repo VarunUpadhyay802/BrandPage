@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Rubik+Vinyl&display=swap');
+*{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.contentWrapper {
+    width: 100%;
+    max-width: 1200px;
+   
+    padding: 0 20px;
+}
+
+.navbar {
+  position: fixed; /* Add this to make the navbar fixed */
+  top: 0; /* Position the navbar at the top */
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 60px; /* Adjust the height according to your needs */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 100; /* Add a higher z-index if necessary */
+
+}
+button{
+    all: unset;
+    background: red;
+    color: white;
+}
+.mainPoster {
+    display: grid;
+    grid-template-columns: 300px 500px; /* Changed to 1fr (fractional unit) for equal distribution */
+    color: black;
+    justify-content: space-evenly;
+    margin :100px 200px 0px 300px;
+  }
+  
+  .item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px; /* Add some padding to separate the image from text */
+  }
+  
+  .item2 {
+    display: flex;
+    justify-content: flex-end; /* Align the shoes image to the right */
+  }
+  
+  .shoe_img {
+    height: 450px; /* Adjust the height and width according to your image */
+    width: auto;
+
+  }
+
+.mainTag{
+    font-size: 30px;
+    font-weight: 108;
+    line-height: 1.2;
+  }
+
+.below_mainTag{
+    font-size: 15px;
+}
